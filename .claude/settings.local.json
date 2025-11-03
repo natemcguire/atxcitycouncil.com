@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(mkdir:*)",
-      "Bash(sips:*)"
+      "Bash(sips:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nRewrite spending scandal article with hard-hitting investigative tone\n\nMajor updates to expose Austin City Council spending abuses:\n- Ryan Alter: $10K to political groups, $2,500 bar membership on taxpayer dime\n- Vanessa Fuentes: $4K ''Latina Power'' coaching, Japan trip during tax vote\n- Mike Siegel: $7K consultants, $2.8K furniture, Germany trip before election\n- Council earns $116K (highest in TX), 55% travel increases while demanding 20% tax hike\n- Strong call to action: Vote NO on Prop Q, demand accountability\n\nBased on Austin American-Statesman investigations (Nov 2 & July 30, 2025)\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(cat:*)",
+      "Bash(md5:*)",
+      "Bash(git hash-object:*)"
     ],
     "deny": [],
     "ask": []
